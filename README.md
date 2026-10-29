@@ -1,48 +1,37 @@
-# E-Commerce Sales Dashboard - Power BI
+# E-Commerce Sales Analysis Dashboard (Power BI)
 
-An interactive sales analysis dashboard built in Power BI Desktop to analyze e-commerce performance across regions, product categories, and customer segments.
+A sales analysis dashboard built in Power BI Desktop to analyze e-commerce performance across product categories, customer segments, and regions over a 4-year period.
 
 ## Dashboard Preview
 
 ![E-Commerce Sales Dashboard](screenshots/dashboard_preview.jpg)
 
-## About the Project
+## Overview
 
-This project explores sales performance, profitability, and customer trends using the popular Superstore Sales dataset from Kaggle. The analysis includes regional breakdown, monthly sales trends, and category performance to help identify high-margin products and growth opportunities.
+I created this project to practice end-to-end dashboard design in Power BI. The goal was to take raw transaction data, clean it, model it, and build an interactive report that helps understand business performance and profitability.
 
-## Data Source
+## Dataset
 
-Dataset: [Superstore Sales Dataset - Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- **Source:** Superstore Sales Dataset from [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- **Size:** 9,994 records across 4 years of retail transactions
+- The full dataset is included in the `data/sales_data.csv` file.
 
-The `data/sales_data.csv` file contains the complete Superstore dataset (9,994 records across 4 years of retail transactions).
+## Tools & Techniques Used
 
-## Tools Used
+- **Power BI Desktop:** Report building, cards, slicers, and interactive visuals
+- **Power Query:** Data cleaning, type conversion, and date formatting
+- **DAX Measures:** Calculated fields for Total Sales, Total Profit, Profit Margin %, and Order Count
+- **Microsoft Excel:** I also validated the numbers and created summary tables in `Superstore_Analysis.xlsx`.
 
-- Power BI Desktop (Dashboard design & interactive visuals)
-- Power Query (Data cleaning, formatting, and date transformations)
-- DAX (Calculated measures: Total Sales, Total Profit, Profit Margin %, Order Count)
-- Microsoft Excel (Data validation and summary analysis - `Superstore_Analysis.xlsx`)
+## Key Findings from the Data
 
-## Key Insights Covered
+- **Top Performing Category:** Technology generated the highest total profit, driven by strong margins in phones and accessories.
+- **Low Margin Area:** Furniture had steady sales volume but lower overall profit margins due to higher shipping costs and heavy discounts on tables and bookcases.
+- **Regional Contribution:** The West and East regions accounted for over 60% of total revenue and profit.
+- **Seasonality:** Sales consistently peaked in Q4 (September to December) each year, likely due to festive and holiday shopping.
 
-- Total sales, total profit, and overall profit margin
-- Month-over-month sales trends and seasonality patterns
-- Category & Sub-Category profitability (Technology, Furniture, Office Supplies)
-- Regional performance breakdown (Central, East, South, West)
-- Customer segment distribution (Consumer, Corporate, Home Office)
+## Files in this Repo
 
-## Project Structure
-
-```
-ECommerce-Sales-Dashboard-PowerBI/
-|-- data/
-|   |-- sales_data.csv
-|-- screenshots/
-|   |-- dashboard_preview.jpg
-|-- Superstore_Analysis.xlsx
-|-- README.md
-```
-
-## Note
-
-The dashboard screenshot above shows the final visual output designed in Power BI. You can also review `Superstore_Analysis.xlsx` in this repo for the summary tables, KPI calculations, and chart representations.
+- `data/sales_data.csv` - Raw transaction dataset from Kaggle
+- `Superstore_Analysis.xlsx` - Excel workbook with summary tables and basic pivot charts
+- `screenshots/dashboard_preview.jpg` - Preview screenshot of the final Power BI dashboard
