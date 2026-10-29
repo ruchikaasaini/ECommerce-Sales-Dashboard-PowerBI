@@ -8,7 +8,11 @@ An interactive sales dashboard built in Power BI to analyze e-commerce performan
 
 ## About the Project
 
-I built this dashboard to practice end-to-end data analysis — from cleaning raw sales data to building visuals that help in decision-making. The dataset includes 20 orders across different categories like Electronics, Clothing, and Furniture.
+I built this dashboard to practice end-to-end data analysis — from cleaning raw sales data to building visuals that help in decision-making. The dataset is based on the popular Superstore sales dataset available on Kaggle. I used a subset of it and adapted the region/city data for India.
+
+## Data Source
+
+Dataset: [Superstore Sales Dataset - Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 ## Tools Used
 
@@ -20,10 +24,10 @@ I built this dashboard to practice end-to-end data analysis — from cleaning ra
 ## What the Dashboard Shows
 
 - Total sales, profit, and order count
-- Month-wise sales trend (Jan - Mar 2024)
+- Month-wise sales trend
 - Category and sub-category breakdown
 - Region-wise performance (North, South, East, West)
-- B2B vs B2C customer split
+- Customer segment analysis (Consumer, Corporate, Home Office)
 
 ## Project Structure
 
@@ -35,10 +39,6 @@ ECommerce-Sales-Dashboard-PowerBI/
 |   |-- dashboard_preview.jpg
 |-- README.md
 `
-
-## Dataset
-
-The sales_data.csv file contains order-level data with columns like Order_ID, Order_Date, Product_Category, Sales, Profit, Quantity, Region, and Customer_Segment.
 
 ## How to Use
 
