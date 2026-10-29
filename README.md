@@ -2,6 +2,10 @@
 
 An interactive sales dashboard built in Power BI to analyze e-commerce performance across regions, product categories, and time periods.
 
+## Dashboard Preview
+
+![E-Commerce Sales Dashboard](screenshots/dashboard_preview.jpg)
+
 ## About the Project
 
 I built this dashboard to practice end-to-end data analysis — from cleaning raw sales data to building visuals that help in decision-making. The dataset includes 20 orders across different categories like Electronics, Clothing, and Furniture.
@@ -16,9 +20,9 @@ I built this dashboard to practice end-to-end data analysis — from cleaning ra
 ## What the Dashboard Shows
 
 - Total sales, profit, and order count
-- Month-wise sales trend
+- Month-wise sales trend (Jan - Mar 2024)
 - Category and sub-category breakdown
-- Region-wise performance comparison
+- Region-wise performance (North, South, East, West)
 - B2B vs B2C customer split
 
 ## Project Structure
@@ -27,6 +31,8 @@ I built this dashboard to practice end-to-end data analysis — from cleaning ra
 ECommerce-Sales-Dashboard-PowerBI/
 |-- data/
 |   |-- sales_data.csv
+|-- screenshots/
+|   |-- dashboard_preview.jpg
 |-- README.md
 `
 
