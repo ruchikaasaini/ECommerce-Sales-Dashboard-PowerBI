@@ -1,21 +1,21 @@
-Order_ID,Order_Date,Product_Category,Sub_Category,Product_Name,Sales,Profit,Quantity,Region,Customer_Segment
-ORD-001,2024-01-05,Electronics,Mobile,Samsung Galaxy A54,25000,4500,1,North,B2C
-ORD-002,2024-01-07,Clothing,Men,Levi Jeans,3500,800,2,South,B2C
-ORD-003,2024-01-10,Electronics,Laptop,Dell Inspiron 15,65000,9000,1,West,B2B
-ORD-004,2024-01-12,Furniture,Chair,Office Chair,8500,1200,3,East,B2B
-ORD-005,2024-01-15,Electronics,Mobile,iPhone 14,80000,12000,1,North,B2C
-ORD-006,2024-01-18,Clothing,Women,Saree Silk,4200,900,4,South,B2C
-ORD-007,2024-01-20,Electronics,TV,Samsung 55 inch 4K,55000,8000,1,West,B2C
-ORD-008,2024-01-22,Furniture,Table,Wooden Study Table,12000,2000,2,North,B2B
-ORD-009,2024-01-25,Stationery,Books,Data Analytics Book,650,150,10,East,B2C
-ORD-010,2024-01-28,Electronics,Laptop,HP Pavilion,52000,7500,1,South,B2B
-ORD-011,2024-02-02,Clothing,Kids,Kids T-Shirt Pack,1200,300,5,West,B2C
-ORD-012,2024-02-05,Electronics,Mobile,Redmi Note 13,18000,3000,2,North,B2C
-ORD-013,2024-02-08,Furniture,Sofa,3 Seater Sofa,35000,5500,1,East,B2B
-ORD-014,2024-02-11,Electronics,Headphones,Sony WH-1000XM5,28000,4200,1,South,B2C
-ORD-015,2024-02-14,Clothing,Women,Winter Jacket,5500,1100,3,West,B2C
-ORD-016,2024-02-17,Electronics,Tablet,iPad Air,60000,9500,1,North,B2C
-ORD-017,2024-02-20,Stationery,Pens,Premium Pen Set,850,200,8,South,B2C
-ORD-018,2024-02-23,Furniture,Wardrobe,Sliding Wardrobe,42000,6000,1,East,B2B
-ORD-019,2024-02-26,Electronics,Laptop,MacBook Air M2,115000,18000,1,West,B2B
-ORD-020,2024-03-01,Clothing,Men,Formal Shirt Pack,3200,700,4,North,B2C
+Row_ID,Order_ID,Order_Date,Ship_Date,Ship_Mode,Customer_ID,Customer_Name,Segment,Country,City,State,Postal_Code,Region,Product_ID,Category,Sub_Category,Product_Name,Sales,Quantity,Discount,Profit
+1,CA-2016-152156,08-11-2016,11-11-2016,Second Class,CG-12520,Claire Gute,Consumer,India,Mumbai,Maharashtra,400001,West,FUR-BO-10001798,Furniture,Bookcases,Bush Somerset Collection Bookcase,261.96,2,0,41.91
+2,CA-2016-152156,08-11-2016,11-11-2016,Second Class,CG-12520,Claire Gute,Consumer,India,Mumbai,Maharashtra,400001,West,FUR-CH-10000454,Furniture,Chairs,Hon Deluxe Fabric Upholstered Stacking Chairs,731.94,3,0,219.58
+3,CA-2016-138688,12-06-2016,16-06-2016,Second Class,DV-13045,Darrin Van Huff,Corporate,India,Delhi,Delhi,110001,North,OFF-LA-10000240,Office Supplies,Labels,Self-Adhesive Address Labels,14.62,2,0,6.87
+4,US-2015-108966,11-10-2015,18-10-2015,Standard Class,SO-20335,Sean O'Donnell,Consumer,India,Bengaluru,Karnataka,560001,South,FUR-TA-10000577,Furniture,Tables,Bretford CR4500 Series Slim Rectangular Table,957.58,5,0.45,-383.03
+5,US-2015-108966,11-10-2015,18-10-2015,Standard Class,SO-20335,Sean O'Donnell,Consumer,India,Bengaluru,Karnataka,560001,South,OFF-ST-10000760,Office Supplies,Storage,Eldon Fold-N-Roll Cart System,22.37,2,0.2,2.52
+6,CA-2014-115812,09-06-2014,14-06-2014,Standard Class,BH-11710,Brosina Hoffman,Consumer,India,Chennai,Tamil Nadu,600001,South,FUR-FU-10001487,Furniture,Furnishings,Eldon Expressions Wood & Plastic Desk Accessories,48.86,7,0,14.17
+7,CA-2014-115812,09-06-2014,14-06-2014,Standard Class,BH-11710,Brosina Hoffman,Consumer,India,Chennai,Tamil Nadu,600001,South,OFF-AR-10002833,Office Supplies,Art,Newell 322,7.28,4,0,1.97
+8,CA-2014-115812,09-06-2014,14-06-2014,Standard Class,BH-11710,Brosina Hoffman,Consumer,India,Chennai,Tamil Nadu,600001,South,TEC-PH-10002275,Technology,Phones,Mitel 5320 IP Phone,907.15,6,0.2,90.71
+9,CA-2014-115812,09-06-2014,14-06-2014,Standard Class,BH-11710,Brosina Hoffman,Consumer,India,Chennai,Tamil Nadu,600001,South,OFF-BI-10003910,Office Supplies,Binders,DXL Angle-View Binders with Locking Rings,18.50,3,0.2,5.78
+10,CA-2014-115812,09-06-2014,14-06-2014,Standard Class,BH-11710,Brosina Hoffman,Consumer,India,Chennai,Tamil Nadu,600001,South,OFF-AP-10002892,Office Supplies,Appliances,Belkin F5C206VTEL 6 Outlet,114.90,5,0,34.47
+11,CA-2014-115812,09-06-2014,14-06-2014,Standard Class,BH-11710,Brosina Hoffman,Consumer,India,Chennai,Tamil Nadu,600001,South,FUR-TA-10001539,Furniture,Tables,Chromcraft Rectangular Conference Tables,1706.18,9,0.2,85.31
+12,CA-2014-115812,09-06-2014,14-06-2014,Standard Class,BH-11710,Brosina Hoffman,Consumer,India,Chennai,Tamil Nadu,600001,South,TEC-PH-10002033,Technology,Phones,Konftel 250 Conference phone,911.42,4,0.2,68.36
+13,CA-2017-114412,15-04-2017,20-04-2017,Standard Class,AA-10480,Andrew Allen,Consumer,India,Kolkata,West Bengal,700001,East,OFF-PA-10002365,Office Supplies,Paper,Xerox 1967,15.55,2,0,5.44
+14,CA-2017-161389,05-12-2017,10-12-2017,Second Class,IM-15070,Irene Maddox,Consumer,India,Kolkata,West Bengal,700001,East,OFF-BI-10003656,Office Supplies,Binders,Fellowes PB200 Plastic Comb Binding Machine,407.98,3,0.2,132.59
+15,US-2016-118983,22-11-2016,26-11-2016,Standard Class,HP-14815,Harold Pawlan,Home Office,India,Pune,Maharashtra,411001,West,OFF-AP-10002311,Office Supplies,Appliances,Holmes Replacement Filter for HEPA Air Purifier,68.81,5,0.8,-123.86
+16,US-2016-118983,22-11-2016,26-11-2016,Standard Class,HP-14815,Harold Pawlan,Home Office,India,Pune,Maharashtra,411001,West,OFF-BI-10000756,Office Supplies,Binders,Storex DuraTech Coated Binders,2.54,2,0.8,-3.05
+17,CA-2015-105893,11-11-2015,18-11-2015,Standard Class,PK-19075,Pete Kriz,Consumer,India,Hyderabad,Telangana,500001,South,OFF-ST-10004186,Office Supplies,Storage,Stur-D-Stor Shelving,665.88,6,0.4,-13.32
+18,CA-2015-167164,13-05-2015,15-05-2015,First Class,AG-10270,Alejandro Grove,Consumer,India,Jaipur,Rajasthan,302001,North,OFF-ST-10000107,Office Supplies,Storage,Fellowes Super Stor/Drawer,55.50,2,0,9.99
+19,CA-2015-143336,27-08-2015,01-09-2015,Second Class,ZD-21925,Zuschuss Donatelli,Consumer,India,Jaipur,Rajasthan,302001,North,OFF-AR-10003056,Office Supplies,Art,Sanford Canvas Value Pack,8.56,2,0,2.48
+20,CA-2015-143336,27-08-2015,01-09-2015,Second Class,ZD-21925,Zuschuss Donatelli,Consumer,India,Jaipur,Rajasthan,302001,North,TEC-PH-10001949,Technology,Phones,Cisco SPA 501G IP Phone,213.48,3,0.2,16.01
